@@ -8,7 +8,7 @@ BiGRU+Bahdanau attention+beam search的中英文机器翻译
 > 比如：换成中文-火星文就是火星文翻译器啦、换成文章-文章摘要就是文章摘要器啦、换成
 > 换成文章-关键词就是关键词提取器啦、
 - 2.实现把cmn.csv提取两个词汇-索引表，写入文件：en_vocabe.txt、zh_vocabe.txt
-- 3.data_generate.py：输入cmn.csv、en_vocabe.txt、zh_vocabe.txt，输出训练数据`data.csv`
+- 3.data_generate.py：输入cmn.csv、en_vocabe.txt、zh_vocabe.txt，输出训练数据`data.csv`，中文分词部分仅用jieba实现
 >data.csv:
 >
 > 英文单词ID序列;中文单词ID序列;中文单词一一对应的下一个单词ID序列
